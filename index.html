@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walaa Mohamed | My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img class="profile" src="images/portrait.jpeg" alt="Walaa Mohamed">
+
+      <h2>My <span>Portfolio</span></h2>
+      <p class="role">Walaa Mohamed · Angular Developer</p>
+      <div class="accent-line"></div>
+
+      <nav>
+        <a class="selected" href="#portfolio">⌂ Portfolio</a>
+        <a href="#about">♙ About Me</a>
+        <a href="#contact">✉ Contact</a>
+      </nav>
+
+      <div class="follow">
+        <h3>Follow Me</h3>
+
+        <div class="socials">
+          <a href="https://github.com/walaa2788"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="GitHub">GH</a>
+
+          <a href="https://www.linkedin.com/in/walaa-mohamed-465ab93a7/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="LinkedIn">in</a>
+
+          <a href="mailto:walaamohamed6888@gmail.com"
+             aria-label="Email">✉</a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+
+      <!-- Portfolio -->
+      <section id="portfolio">
+        <h1>My <span>Portfolio</span></h1>
+
+        <!-- Filters work using CSS only -->
+        <input class="filter-radio" type="radio"
+               name="filter" id="all" checked>
+
+        <input class="filter-radio" type="radio"
+               name="filter" id="design">
+
+        <input class="filter-radio" type="radio"
+               name="filter" id="photos">
+
+        <div class="filters">
+          <label for="all">ALL</label>
+          <label for="design">Design</label>
+          <label for="photos">Photos</label>
+        </div>
+
+        <div class="cards">
+
+          <article class="card design">
+            <a class="image-link" href="images/homepage.png"
+               target="_blank" rel="noopener noreferrer">
+              <img class="screenshot" src="images/homepage.png"
+                   alt="E-Commerce home page">
+            </a>
+
+            <div>
+              <h3>E-Commerce Home</h3>
+              <p>
+                A responsive storefront with product listings
+                and shopping categories.
+              </p>
+            </div>
+          </article>
+
+          <article class="card design">
+            <a class="image-link" href="images/weather.png"
+               target="_blank" rel="noopener noreferrer">
+              <img class="screenshot" src="images/weather.png"
+                   alt="Weather application">
+            </a>
+
+            <div>
+              <h3>Weather App</h3>
+              <p>
+                City search, current weather, and a forecast
+                in one responsive interface.
+              </p>
+            </div>
+          </article>
+
+          <article class="card design">
+            <a class="image-link" href="images/productdetails.png"
+               target="_blank" rel="noopener noreferrer">
+              <img class="product-image" src="images/productdetails.png"
+                   alt="Product details page">
+            </a>
+
+            <div>
+              <h3>Product Details</h3>
+              <p>
+                A product page with specifications, pricing,
+                and an add-to-cart action.
+              </p>
+            </div>
+          </article>
+
+          <article class="card photos">
+            <a class="image-link" href="images/workspace.jpg"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/workspace.jpg"
+                   alt="Laptop and plants on a wooden desk">
+            </a>
+
+            <div>
+              <h3>Minimal Workspace</h3>
+              <p>
+                A simple workspace with natural textures
+                and a clean arrangement.
+              </p>
+            </div>
+          </article>
+
+          <article class="card photos">
+            <a class="image-link" href="images/camera.jpg"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/camera.jpg"
+                   alt="Camera resting on a laptop">
+            </a>
+
+            <div>
+              <h3>Photography</h3>
+              <p>
+                Camera equipment and creative tools
+                captured in a real photograph.
+              </p>
+            </div>
+          </article>
+
+          <article class="card photos">
+            <a class="image-link" href="images/creative-desk.jpg"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/creative-desk.jpg"
+                   alt="Laptop and notebook beside a plant">
+            </a>
+
+            <div>
+              <h3>Creative Desk</h3>
+              <p>
+                A bright desk with a laptop, notebook,
+                and natural greenery.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about section">
+
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+
+          <p>
+            Hello! I’m Walaa, an Angular developer passionate
+            about building responsive and dynamic web applications
+            with Angular, TypeScript, and RESTful APIs.
+          </p>
+
+          <p class="education">
+            Bachelor of Computer Science<br>
+            Beni Suef University · September 2024 – Present
+          </p>
+
+          <h3>My Skills</h3>
+
+          <div class="skill">
+            <div>HTML <span>90%</span></div>
+            <div class="track">
+              <div style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div>CSS <span>80%</span></div>
+            <div class="track">
+              <div style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div>TypeScript <span>70%</span></div>
+            <div class="track">
+              <div style="width: 70%;"></div>
+            </div>
+          </div>
+
+          <a class="button" href="Walaa_Mohamed_Resume.pdf" download>
+            Download Resume
+          </a>
+        </div>
+
+        <!-- Example pricing for the assignment -->
+        <div class="pricing">
+          <h3>Pricing Plans</h3>
+
+          <div class="plans">
+
+            <article class="plan">
+              <div class="plan-icon">♧</div>
+              <h3>Basic</h3>
+              <p class="price">$19 <small>/ mo</small></p>
+
+              <ul>
+                <li>1 Website</li>
+                <li>Responsive Design</li>
+                <li>Basic Support</li>
+              </ul>
+
+              <a class="outline-button" href="#contact">Sign Up</a>
+            </article>
+
+            <article class="plan featured">
+              <span class="popular">POPULAR</span>
+              <div class="plan-icon">★</div>
+              <h3>Pro</h3>
+              <p class="price">$49 <small>/ mo</small></p>
+
+              <ul>
+                <li>5 Websites</li>
+                <li>Responsive Design</li>
+                <li>Priority Support</li>
+                <li>Source Files</li>
+              </ul>
+
+              <a class="button" href="#contact">Sign Up</a>
+            </article>
+
+            <article class="plan">
+              <div class="plan-icon">♛</div>
+              <h3>Premium</h3>
+              <p class="price">$99 <small>/ mo</small></p>
+
+              <ul>
+                <li>Unlimited Websites</li>
+                <li>Responsive Design</li>
+                <li>24/7 Support</li>
+                <li>Source Files</li>
+              </ul>
+
+              <a class="outline-button" href="#contact">Sign Up</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact section">
+
+        <div>
+          <h2>Contact <span>Me</span></h2>
+
+          <div class="contact-cards">
+
+            <a href="mailto:walaamohamed6888@gmail.com">
+              <span>✉</span>
+              <h3>Email</h3>
+              <p>walaamohamed6888@gmail.com</p>
+            </a>
+
+            <div>
+              <span>⌖</span>
+              <h3>Location</h3>
+              <p>Beni Suef, Egypt</p>
+            </div>
+
+            <a href="tel:+201155953448">
+              <span>☎</span>
+              <h3>Phone</h3>
+              <p>+20 115 595 3448</p>
+            </a>
+
+          </div>
+        </div>
+
+        <form action="mailto:walaamohamed6888@gmail.com"
+              method="post" enctype="text/plain">
+
+          <div class="form-row">
+            <label>
+              <span class="sr-only">Your Name</span>
+              <input type="text" name="Name"
+                     placeholder="Your Name"
+                     autocomplete="name" required>
+            </label>
+
+            <label>
+              <span class="sr-only">Your Email</span>
+              <input type="email" name="Email"
+                     placeholder="Your Email"
+                     autocomplete="email" required>
+            </label>
+          </div>
+
+          <label>
+            <span class="sr-only">Your Message</span>
+            <textarea name="Message" rows="4"
+                      placeholder="Your Message" required></textarea>
+          </label>
+
+          <button class="button" type="submit">Send Message</button>
+
+          <p class="form-note">
+            Opens your email application to send the message.
+          </p>
+        </form>
+
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-columns">
+
+        <div>
+          <h3>About Me</h3>
+
+          <p>
+            I’m an Angular developer who enjoys building responsive
+            web applications. I focus on reusable components,
+            API integration, and improving my skills.
+          </p>
+
+          <div class="socials">
+            <a href="https://github.com/walaa2788"
+               aria-label="GitHub">GH</a>
+
+            <a href="https://www.linkedin.com/in/walaa-mohamed-465ab93a7/"
+               aria-label="LinkedIn">in</a>
+
+            <a href="mailto:walaamohamed6888@gmail.com"
+               aria-label="Email">✉</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Recent Blog Posts</h3>
+
+          <a class="blog"
+             href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design">
+            <img src="images/workspace.jpg" alt="Laptop on a desk">
+            <span>
+              How to build a responsive website
+              <small>Responsive design guide</small>
+            </span>
+          </a>
+
+          <a class="blog"
+             href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout">
+            <img src="images/creative-desk.jpg"
+                 alt="Laptop and notebook by a window">
+            <span>
+              CSS Grid Layout Guide
+              <small>Learn CSS Grid</small>
+            </span>
+          </a>
+        </div>
+
+        <div>
+          <h3>Popular Tags</h3>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>TypeScript</span>
+            <span>Design</span>
+            <span>Angular</span>
+            <span>Responsive</span>
+            <span>Frontend</span>
+            <span>Web Design</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © 2026 Walaa Mohamed. All Rights Reserved.
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
